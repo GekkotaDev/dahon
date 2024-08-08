@@ -5,6 +5,9 @@
   "license": "Apache-2.0",
   "sideEffects": false,
   "type": "module",
+  "repository": {
+    "url": "https://github.com/GekkotaDev/dahon.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
