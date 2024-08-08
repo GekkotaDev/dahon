@@ -1,6 +1,6 @@
 {
   "name": "dahon",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Local state mutation utilities for Vue 3.",
   "license": "Apache-2.0",
   "sideEffects": false,
@@ -28,6 +28,16 @@
       "types": "./dist/bridge/index.d.ts",
       "import": "./dist/bridge/index.mjs",
       "require": "./dist/bridge/index.cjs"
+    },
+    "./imports": {
+      "types": "./dist/imports/index.d.ts",
+      "import": "./dist/imports/index.mjs",
+      "require": "./dist/imports/index.cjs"
+    },
+    "./update": {
+      "types": "./dist/update/index.d.ts",
+      "import": "./dist/update/index.mjs",
+      "require": "./dist/update/index.cjs"
     }
   },
   "main": "./dist/index.cjs",
