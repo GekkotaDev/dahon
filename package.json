@@ -1,6 +1,6 @@
 {
   "name": "dahon",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Local state mutation utilities for Vue 3.",
   "license": "Apache-2.0",
   "sideEffects": false,
